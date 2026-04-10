@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "lint": "eslint app.js",
-  "lint:html": "htmlhint index.html"
+    "lint": "eslint app.js",
+    "lint:html": "htmlhint index.html"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.2.0",
+    "globals": "^17.4.0",
     "htmlhint": "^1.9.2"
   }
 }

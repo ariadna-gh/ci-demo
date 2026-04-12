@@ -64,3 +64,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Show deployment info
+        run: |
+          echo "🚀 Deployment successful!"
+          echo "🌐 URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "🧾 Commit: $GITHUB_SHA"
+          echo "🕒 Time:"
+          date
